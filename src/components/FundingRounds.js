@@ -10,12 +10,13 @@ let users = [
 class FundingRounds extends React.Component {
 
 
+
     render() {
         return(
             <div>
-                {users.map(user => {
+                {Content.map(company => {
                     return (
-                        <li>{user.name}</li>
+                        <li>{company.company_name}: {company.raised_amount_usd}</li>
                     );
                 })}
             </div>
