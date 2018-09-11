@@ -20,9 +20,3 @@ class FundingRounds extends React.Component {
 }
 
 export default FundingRounds;
-
-// {Content.map(company => {
-//     return (
-//         <li>{company.company_name}: {company.raised_amount_usd}</li>
-//     );
-// })}
