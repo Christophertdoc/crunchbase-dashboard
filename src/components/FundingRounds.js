@@ -76,16 +76,29 @@ class FundingRounds extends React.Component {
         //     c: 3
         // }
 
-        const listItems = Content.map((gh, i)=>(
-            <li key={i}>
-                {gh.raised_amount_usd}
-                {gh.company_name}
-            </li>
-        ))
+        // const listItems = Content.map((el, i) => (
+        //     {
+        //         value: el.raised_amount_usd
+        //     }
+        // ))
+
+        var items = [
+            { name: 'Edward', value: 21 },
+            { name: 'Sharpe', value: 37 },
+            { name: 'And', value: 45 },
+            { name: 'The', value: -12 },
+            { name: 'Magnetic', value: 13 },
+            { name: 'Zeros', value: 37 }
+        ];
+
+        var sorted = Content.sort(function (a, b) {
+            return a.raised_amount_usd - b.raised_amount_usd;
+        });
+
+        console.log(sorted);
 
         return(
             <div>
-                {listItems}
             </div>
         )
     }
