@@ -50,29 +50,42 @@ class FundingRounds extends React.Component {
 
         // WORKS IN THAT IT SORTS NUMBERS ON ARRAY IN ASCENDING ORDER 
         // CAN'T SEEM TO GET THIS TO WORK ON THE JSON OBJECT AS SHOWN IN ANOTHER ATTEMPT
-        var list = [2, 1, 5, 4];
-        // temporary array holds objects with position and sort-value
-        var mapped = list.map(function(el, i) {
-            return { index: i, value: el };
-        })
-        // sorting the mapped array containing the reduced values
-        mapped.sort(function(a, b) {
-            if (a.value > b.value) {
-            return 1;
-            }
-            if (a.value < b.value) {
-            return -1;
-            }
-            return 0;
-        });
-        // container for the resulting order
-        var result = mapped.map(function(el){
-            return list[el.index];
-        });
+        // var list = [2, 1, 5, 4];
+        // // temporary array holds objects with position and sort-value
+        // var mapped = list.map(function(el, i) {
+        //     return { index: i, value: el };
+        // })
+        // // sorting the mapped array containing the reduced values
+        // mapped.sort(function(a, b) {
+        //     if (a.value > b.value) {
+        //     return 1;
+        //     }
+        //     if (a.value < b.value) {
+        //     return -1;
+        //     }
+        //     return 0;
+        // });
+        // // container for the resulting order
+        // var result = mapped.map(function(el){
+        //     return list[el.index];
+        // });
+
+        // var a = { 
+        //     a: 1,
+        //     b: 2,
+        //     c: 3
+        // }
+
+        const listItems = Content.map((gh, i)=>(
+            <li key={i}>
+                {gh.raised_amount_usd}
+                {gh.company_name}
+            </li>
+        ))
 
         return(
             <div>
-                {result}
+                {listItems}
             </div>
         )
     }
@@ -86,4 +99,19 @@ export default FundingRounds;
 //     2. How to iterate over objects in React: https://stackoverflow.com/questions/40950546/react-js-right-way-to-iterate-over-object-instead-of-object-entries/40950656 
 //          a. Try this with simple test object. 
 //          b. Then try this with the JSON object. 
-//          c. Then try adding sort to this loop.
+//          c. Then try adding sort to this loop. Look at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#Sorting_with_map  
+
+
+
+
+
+// {Object.keys(a).map((company, index) => 
+//     <li>{company.raised_amount_usd}</li>
+// )}
+
+
+// {Object.keys(a).map(function(keyName, keyIndex) {
+//     // use keyName to get current key's name
+//     return <li>{keyName}: {a[keyName]}</li>
+//     // and a[keyName] to get its value
+// })}
