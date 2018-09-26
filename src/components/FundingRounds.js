@@ -16,9 +16,12 @@ class FundingRounds extends React.Component {
         return(
             <div>
                 {sorted.map(company => {
-                    return (
-                        <li>{company.company_name}: {company.raised_amount_usd}</li>
-                    );
+                    if(company.raised_amount_usd) {
+                        console.log(sorted.length);
+                        return (
+                            <li>{company.company_name}: {company.raised_amount_usd}</li>
+                        );
+                    }
                 })}
             </div>
         )
