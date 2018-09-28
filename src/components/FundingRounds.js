@@ -11,13 +11,12 @@ class FundingRounds extends React.Component {
            a.raised_amount_usd - b.raised_amount_usd
         )
 
-        console.log(sorted);
+        const topValues = sorted.slice(-3);
 
         return(
             <div>
-                {sorted.map(company => {
+                {topValues.map(company => {
                     if(company.raised_amount_usd) {
-                        console.log(sorted.length);
                         return (
                             <li>{company.company_name}: {company.raised_amount_usd}</li>
                         );
