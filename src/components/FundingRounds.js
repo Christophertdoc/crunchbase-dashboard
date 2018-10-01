@@ -11,11 +11,13 @@ class FundingRounds extends React.Component {
            a.raised_amount_usd - b.raised_amount_usd
         )
 
+        const topValues = sortedByAmount.slice(-3);
+
         const sortByDate = Content.sort((a,b) => 
             new Date(b.announced_on) - new Date(a.announced_on)
         )
 
-        const topValues = sortedByAmount.slice(-3);
+        const newest = sortByDate.slice(0, 3); 
 
         return(
             <div>
@@ -29,8 +31,8 @@ class FundingRounds extends React.Component {
                     }
                 })}
 
-                <h3>Sorted By Date</h3>
-                {sortByDate.map(company => {
+                <h3>Newest</h3>
+                {newest.map(company => {
                     return (
                         <li>{company.company_name}: {company.announced_on}</li>
                     );
