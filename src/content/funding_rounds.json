@@ -970,7 +970,9 @@
     "created_at": "2014-06-27 20:16:23",
     "updated_at": "2018-02-13 00:40:16",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "cryptocurrency",
+    "category_group_list": "software|payments|financial services"
   },
   {
     "company_name": "Prestiamoci",
@@ -993,7 +995,9 @@
     "created_at": "2013-10-30 11:47:22",
     "updated_at": "2018-02-13 00:00:22",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "credit",
+    "category_group_list": "financial services|lending and investments"
   },
   {
     "company_name": "PeopleMatter",
@@ -1016,7 +1020,9 @@
     "created_at": "2013-10-28 11:12:37",
     "updated_at": "2018-02-12 23:37:36",
     "investor_names": "{\"StarVest Partners\"}",
-    "investor_uuids": "{a6f37bb8-6154-f734-e44d-e96f1d8ce740}"
+    "investor_uuids": "{a6f37bb8-6154-f734-e44d-e96f1d8ce740}",
+    "category_name": "hospitality",
+    "category_group_list": "travel and tourism"
   },
   {
     "company_name": "Bromium",
@@ -1039,7 +1045,9 @@
     "created_at": "2013-10-23 11:43:35",
     "updated_at": "2018-02-12 23:44:39",
     "investor_names": "{\"Meritech Capital Partners\"}",
-    "investor_uuids": "{8d5c7e48-82da-3025-dd46-346a31bab86f}"
+    "investor_uuids": "{8d5c7e48-82da-3025-dd46-346a31bab86f}",
+    "category_name": "cyber security",
+    "category_group_list": "privacy and security|information technology"
   },
   {
     "company_name": "Openbay",
@@ -1062,7 +1070,9 @@
     "created_at": "2013-11-18 07:18:14",
     "updated_at": "2018-02-12 22:54:12",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "automotive",
+    "category_group_list": "transportation"
   },
   {
     "company_name": "Prevently",
@@ -1085,7 +1095,9 @@
     "created_at": "2014-05-22 10:18:40",
     "updated_at": "2018-02-12 23:41:38",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "mhealth",
+    "category_group_list": "health care|mobile"
   },
   {
     "company_name": "Lesara",
@@ -1108,7 +1120,9 @@
     "created_at": "2016-04-21 16:29:30",
     "updated_at": "2018-02-12 23:32:03",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "fashion",
+    "category_group_list": "design|clothing and apparel"
   },
   {
     "company_name": "Glide",
@@ -1131,7 +1145,9 @@
     "created_at": "2014-03-21 20:56:27",
     "updated_at": "2018-02-12 23:47:37",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "wearables",
+    "category_group_list": "hardware|consumer electronics"
   },
   {
     "company_name": "Frontback",
@@ -1154,7 +1170,9 @@
     "created_at": "2013-10-30 03:29:31",
     "updated_at": "2018-02-12 22:18:32",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "identity management",
+    "category_group_list": "privacy and security|information technology"
   },
   {
     "company_name": "Pivot3",
@@ -1177,7 +1195,9 @@
     "created_at": "2013-10-25 03:56:37",
     "updated_at": "2018-02-12 23:59:54",
     "investor_names": "{\"InterWest Partners\",\"Mesirow Financial\"}",
-    "investor_uuids": "{3eb9d040-1487-8d0e-4db8-72ec93ce32a5,006b449a-5a0a-856e-bfdc-07f784aff382}"
+    "investor_uuids": "{3eb9d040-1487-8d0e-4db8-72ec93ce32a5,006b449a-5a0a-856e-bfdc-07f784aff382}",
+    "category_name": "virtual desktop",
+    "category_group_list": "software"
   },
   {
     "company_name": "Airbnb",
@@ -1200,7 +1220,9 @@
     "created_at": "2013-10-28 12:20:02",
     "updated_at": "2018-02-12 23:26:49",
     "investor_names": "{\"Founders Fund\"}",
-    "investor_uuids": "{fb2f8884-ec07-895a-48d7-d9a9d4d7175c}"
+    "investor_uuids": "{fb2f8884-ec07-895a-48d7-d9a9d4d7175c}",
+    "category_name": "hospitality",
+    "category_group_list": "travel and tourism"
   },
   {
     "company_name": "Trustev",
@@ -1223,6 +1245,8 @@
     "created_at": "2013-10-30 10:28:34",
     "updated_at": "2018-02-12 23:44:09",
     "investor_names": "{Greycroft}",
-    "investor_uuids": "{9dd7066b-069a-9dd9-c211-06db31253bd0}"
+    "investor_uuids": "{9dd7066b-069a-9dd9-c211-06db31253bd0}",
+    "category_name": "fraud detection",
+    "category_group_list": "financial services|payments|privacy and security"
   }
 ]
