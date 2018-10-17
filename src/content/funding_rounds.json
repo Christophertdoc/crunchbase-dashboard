@@ -20,7 +20,9 @@
     "created_at": "2013-10-30 17:19:33",
     "updated_at": "2018-02-12 23:45:54",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "law enforcement",
+    "category_group_list": "government and military|privacy and security" 
   },
   {
     "company_name": "Rethink Robotics",
@@ -43,7 +45,9 @@
     "created_at": "2013-11-01 04:08:18",
     "updated_at": "2018-02-12 22:59:45",
     "investor_names": "{\"Two Sigma Ventures\"}",
-    "investor_uuids": "{063c79a5-a008-493a-a633-913d64963b7e}"
+    "investor_uuids": "{063c79a5-a008-493a-a633-913d64963b7e}",
+    "category_name": "industrial automation",
+    "category_group_list": "science and engineering|manufacturing"
   },
   {
     "company_name": "Magisto",
@@ -66,7 +70,9 @@
     "created_at": "2013-10-29 11:49:49",
     "updated_at": "2018-02-12 23:24:44",
     "investor_names": "{\"Qualcomm Ventures\",\"SanDisk Ventures\"}",
-    "investor_uuids": "{04850d4f-10e8-1f2f-e54a-2b9ceae952d5,ac744785-37e5-70c8-5d70-661f708d3a06}"
+    "investor_uuids": "{04850d4f-10e8-1f2f-e54a-2b9ceae952d5,ac744785-37e5-70c8-5d70-661f708d3a06}",
+    "category_name": "video advertising",
+    "category_group_list": "advertising|sales and marketing"
   },
   {
     "company_name": "Arno Therapeutics",
@@ -89,7 +95,9 @@
     "created_at": "2013-07-05 12:47:32",
     "updated_at": "2018-02-12 23:36:54",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "biopharma",
+    "category_group_list": "science and engineering|health care|biotechnology"
   },
   {
     "company_name": "Gbox by OnCircle, Inc.",
@@ -112,7 +120,9 @@
     "created_at": "2016-02-22 17:17:16",
     "updated_at": "2018-02-12 23:53:07",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "video streaming",
+    "category_group_list": "content and publishing|media and entertainment|video"
   },
   {
     "company_name": "MariaDB Corporation",
@@ -135,7 +145,9 @@
     "created_at": "2017-05-08 22:21:23",
     "updated_at": "2018-02-12 23:40:42",
     "investor_names": "{\"Intel Capital\"}",
-    "investor_uuids": "{f3716725-552d-b9b5-59ad-de4ec64b1751}"
+    "investor_uuids": "{f3716725-552d-b9b5-59ad-de4ec64b1751}",
+    "category_name": "database",
+    "category_group_list": "software|data and analytics"
   },
   {
     "company_name": "Komli Media",
@@ -158,8 +170,10 @@
     "created_at": "2013-10-24 03:44:11",
     "updated_at": "2018-02-12 23:37:58",
     "investor_names": "{}",
-    "investor_uuids": "{}"
-  },
+    "investor_uuids": "{}",
+    "category_name": "digital media",
+    "category_group_list": "media and entertainment"
+  }, 
   {
     "company_name": "PneumaCare",
     "country_code": "GBR",
@@ -181,7 +195,9 @@
     "created_at": "2013-10-31 05:10:36",
     "updated_at": "2018-02-12 23:08:27",
     "investor_names": "{\"Charterhouse Capital Partners\"}",
-    "investor_uuids": "{12c930ba-b693-96d3-8a5c-4751392fd4bb}"
+    "investor_uuids": "{12c930ba-b693-96d3-8a5c-4751392fd4bb}",
+    "category_name": "health diagnostics",
+    "category_group_list": "health care"
   },
   {
     "company_name": "ByteLight",
@@ -204,7 +220,9 @@
     "created_at": "2013-10-25 12:15:20",
     "updated_at": "2018-02-12 23:55:38",
     "investor_names": "{\"Flywheel Ventures\",\"Sand Hill Angels\"}",
-    "investor_uuids": "{16eb71eb-fe2e-d4d6-af4c-1146d9e10df7,2c3f01ba-ae17-7382-b1bd-43580258b955}"
+    "investor_uuids": "{16eb71eb-fe2e-d4d6-af4c-1146d9e10df7,2c3f01ba-ae17-7382-b1bd-43580258b955}",
+    "category_name": "location based services",
+    "category_group_list": "data and analytics|internet services|navigation and mapping"
   },
   {
     "company_name": "HYLA Mobile",
@@ -227,7 +245,9 @@
     "created_at": "2013-09-24 04:11:29",
     "updated_at": "2018-02-12 23:41:55",
     "investor_names": "{\"Kleiner Perkins \"}",
-    "investor_uuids": "{2d0a5bf0-e53e-9a07-2243-9bcd561421ec}"
+    "investor_uuids": "{2d0a5bf0-e53e-9a07-2243-9bcd561421ec}",
+    "category_name": "mobile devices",
+    "category_group_list": "mobile|consumer electronics|hardware"
   },
   {
     "company_name": "Immune Design",
@@ -250,7 +270,9 @@
     "created_at": "2013-09-25 06:46:59",
     "updated_at": "2018-02-12 23:44:41",
     "investor_names": "{\"The Column Group\"}",
-    "investor_uuids": "{b41959f6-81f1-7a87-ad54-b8af852e2eab}"
+    "investor_uuids": "{b41959f6-81f1-7a87-ad54-b8af852e2eab}",
+    "category_name": "therapeutics",
+    "category_group_list": "health care"
   },
   {
     "company_name": "Vires Aeronautics",
@@ -273,7 +295,9 @@
     "created_at": "2013-11-19 04:30:41",
     "updated_at": "2018-02-12 22:47:11",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "aerospace",
+    "category_group_list": "science and engineering"
   },
   {
     "company_name": "Persio",
@@ -296,7 +320,9 @@
     "created_at": "2013-10-24 12:00:27",
     "updated_at": "2018-02-12 23:29:00",
     "investor_names": "{\"Origin Ventures\"}",
-    "investor_uuids": "{40edc90d-6a5f-ba04-bd86-1f816da74f09}"
+    "investor_uuids": "{40edc90d-6a5f-ba04-bd86-1f816da74f09}",
+    "category_name": "mobile advertising",
+    "category_group_list": "advertising|sales and marketing"
   },
   {
     "company_name": "Formlabs",
@@ -319,7 +345,9 @@
     "created_at": "2013-10-24 11:57:45",
     "updated_at": "2018-02-12 23:37:41",
     "investor_names": "{\"DFJ Growth\"}",
-    "investor_uuids": "{ca770ff6-5fec-0c77-4785-8b0fa96832e1}"
+    "investor_uuids": "{ca770ff6-5fec-0c77-4785-8b0fa96832e1}",
+    "category_name": "3d printing",
+    "category_group_list": "manufacturing"
   },
   {
     "company_name": "Cureatr",
@@ -342,7 +370,9 @@
     "created_at": "2013-10-23 10:43:52",
     "updated_at": "2018-02-12 23:52:46",
     "investor_names": "{\"Cardinal Partners\",\"Milestone Venture Partners\"}",
-    "investor_uuids": "{69c1984b-f506-e0b6-1dca-895145e35cb3,c0d0e5c7-0741-6dd5-e48a-917790db9136}"
+    "investor_uuids": "{69c1984b-f506-e0b6-1dca-895145e35cb3,c0d0e5c7-0741-6dd5-e48a-917790db9136}",
+    "category_name": "mhealth",
+    "category_group_list": "health care|mobile"
   },
   {
     "company_name": "Knozen",
@@ -365,7 +395,9 @@
     "created_at": "2013-11-14 19:12:38",
     "updated_at": "2018-02-12 23:44:01",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "crowdfunding",
+    "category_group_list": "financial services"
   },
   {
     "company_name": "iMoney Group",
@@ -388,7 +420,9 @@
     "created_at": "2013-10-24 10:23:59",
     "updated_at": "2018-02-12 23:42:55",
     "investor_names": "{\"Jungle Ventures\"}",
-    "investor_uuids": "{57ea262f-c483-8b89-3619-d04dc7e5154b}"
+    "investor_uuids": "{57ea262f-c483-8b89-3619-d04dc7e5154b}",
+    "category_name": "e-commerce platforms",
+    "category_group_list": "commerce and shopping|internet services"
   },
   {
     "company_name": "Layer",
@@ -411,7 +445,9 @@
     "created_at": "2013-10-29 11:59:02",
     "updated_at": "2018-02-13 00:40:44",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "communications infrastructure",
+    "category_group_list": "hardware"
   },
   {
     "company_name": "Kanvas Labs",
@@ -434,7 +470,9 @@
     "created_at": "2013-12-24 00:21:24",
     "updated_at": "2018-02-12 23:45:25",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "photo sharing",
+    "category_group_list": "media and entertainment|content and publishing"
   },
   {
     "company_name": "ColorChip",
@@ -457,7 +495,9 @@
     "created_at": "2017-05-10 09:28:41",
     "updated_at": "2018-02-12 23:38:52",
     "investor_names": "{\"Vertex Ventures \"}",
-    "investor_uuids": "{8ea4648c-0b42-09a0-bfdd-2712317161b5}"
+    "investor_uuids": "{8ea4648c-0b42-09a0-bfdd-2712317161b5}",
+    "category_name": "optical communication",
+    "category_group_list": "hardware"
   },
   {
     "company_name": "Placemeter",
@@ -480,7 +520,9 @@
     "created_at": "2013-01-25 05:02:20",
     "updated_at": "2018-02-12 23:57:30",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "govtech",
+    "category_group_list": "government and military|information technology"
   },
   {
     "company_name": "Primary Data",
@@ -503,7 +545,9 @@
     "created_at": "2013-10-31 03:30:02",
     "updated_at": "2018-02-12 23:54:12",
     "investor_names": "{Accel}",
-    "investor_uuids": "{b08efc27-da40-505a-6f9d-c9e14247bf36}"
+    "investor_uuids": "{b08efc27-da40-505a-6f9d-c9e14247bf36}",
+    "category_name": "virtualization",
+    "category_group_list": "software|information technology|hardware"
   },
   {
     "company_name": "Pinterest",
@@ -526,7 +570,9 @@
     "created_at": "2013-10-23 22:36:21",
     "updated_at": "2018-02-12 23:57:15",
     "investor_names": "{\"Fidelity Investments\"}",
-    "investor_uuids": "{fd44c344-e3af-a5da-c703-eca78313d01a}"
+    "investor_uuids": "{fd44c344-e3af-a5da-c703-eca78313d01a}",
+    "category_name": "social media",
+    "category_group_list": "internet services|media and entertainment"
   },
   {
     "company_name": "NuVista Energy",
@@ -549,7 +595,9 @@
     "created_at": "2013-10-30 03:33:54",
     "updated_at": "2018-02-12 23:34:41",
     "investor_names": "{\"Peters & Co.\",\"RBC Capital Markets\"}",
-    "investor_uuids": "{dcce66eb-e56a-5745-98c8-d5d943bb1106,7e5b6aa0-aff6-6186-e437-75033cae2ad4}"
+    "investor_uuids": "{dcce66eb-e56a-5745-98c8-d5d943bb1106,7e5b6aa0-aff6-6186-e437-75033cae2ad4}",
+    "category_name": "oil and gas",
+    "category_group_list": "natural resources|energy"
   },
   {
     "company_name": "Itembase",
@@ -572,7 +620,9 @@
     "created_at": "2013-10-24 09:16:18",
     "updated_at": "2018-02-12 23:56:03",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "big data",
+    "category_group_list": "data and analytics"
   },
   {
     "company_name": "Securly",
@@ -595,7 +645,9 @@
     "created_at": "2013-10-24 05:24:50",
     "updated_at": "2018-02-12 23:46:47",
     "investor_names": "{FOUNDER.org}",
-    "investor_uuids": "{b229dadb-5cde-bc38-174e-8e2b1f0cd17c}"
+    "investor_uuids": "{b229dadb-5cde-bc38-174e-8e2b1f0cd17c}",
+    "category_name": "edtech",
+    "category_group_list": "education|software"
   },
   {
     "company_name": "Precipio Diagnostics",
@@ -618,7 +670,9 @@
     "created_at": "2013-10-29 04:27:24",
     "updated_at": "2018-02-12 23:51:19",
     "investor_names": "{\"Connecticut Innovations\"}",
-    "investor_uuids": "{5db50de0-f11d-a446-1656-f52bb3b2b833}"
+    "investor_uuids": "{5db50de0-f11d-a446-1656-f52bb3b2b833}",
+    "category_name": "health diagnostics",
+    "category_group_list": "health care"
   },
   {
     "company_name": "Nextdoor",
@@ -641,7 +695,9 @@
     "created_at": "2013-10-29 13:13:41",
     "updated_at": "2018-02-12 23:31:52",
     "investor_names": "{\"Kleiner Perkins \",\"Tiger Global Management\"}",
-    "investor_uuids": "{2d0a5bf0-e53e-9a07-2243-9bcd561421ec,d3184029-74d8-7e6c-717b-84ac89d0a837}"
+    "investor_uuids": "{2d0a5bf0-e53e-9a07-2243-9bcd561421ec,d3184029-74d8-7e6c-717b-84ac89d0a837}",
+    "category_name": "private social networking",
+    "category_group_list": "community and lifestyle"
   },
   {
     "company_name": "FancyBox",
@@ -664,7 +720,9 @@
     "created_at": "2014-07-18 22:09:26",
     "updated_at": "2018-02-12 23:28:01",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "beauty",
+    "category_group_list": "consumer goods"
   },
   {
     "company_name": "Adcade",
@@ -687,7 +745,9 @@
     "created_at": "2014-05-05 04:19:27",
     "updated_at": "2018-02-12 23:32:10",
     "investor_names": "{\"Polaris Partners\"}",
-    "investor_uuids": "{add1bcfe-41e3-7828-253b-d7c8694ed4ca}"
+    "investor_uuids": "{add1bcfe-41e3-7828-253b-d7c8694ed4ca}",
+    "category_name": "mobile advertising",
+    "category_group_list": "advertising|sales and marketing"
   },
   {
     "company_name": "Mic Network",
@@ -710,7 +770,9 @@
     "created_at": "2013-10-15 15:53:57",
     "updated_at": "2018-02-12 23:39:20",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "broadcasting",
+    "category_group_list": "video|media and entertainment"
   },
   {
     "company_name": "BloomNation",
@@ -733,7 +795,9 @@
     "created_at": "2013-10-24 11:35:58",
     "updated_at": "2018-02-12 22:45:31",
     "investor_names": "{\"Andreessen Horowitz\"}",
-    "investor_uuids": "{ce91bad7-b6d8-e56e-0f45-4763c6c5ca29}"
+    "investor_uuids": "{ce91bad7-b6d8-e56e-0f45-4763c6c5ca29}",
+    "category_name": "flowers",
+    "category_group_list": "consumer goods"
   },
   {
     "company_name": "IfOnly",
@@ -756,7 +820,9 @@
     "created_at": "2013-11-18 05:00:52",
     "updated_at": "2018-02-12 22:52:34",
     "investor_names": "{\"New Enterprise Associates \"}",
-    "investor_uuids": "{47b84763-9727-7cdf-b194-2742e3963147}"
+    "investor_uuids": "{47b84763-9727-7cdf-b194-2742e3963147}",
+    "category_name": "retail technology",
+    "category_group_list": "hardware|commerce and shopping|software"
   },
   {
     "company_name": "PlateJoy",
@@ -779,7 +845,9 @@
     "created_at": "2013-11-20 11:37:06",
     "updated_at": "2018-02-12 22:15:09",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "food delivery",
+    "category_group_list": "transportation|food and beverage"
   },
   {
     "company_name": "Runnable Inc.",
@@ -802,7 +870,9 @@
     "created_at": "2013-10-30 17:00:04",
     "updated_at": "2018-02-12 23:33:43",
     "investor_names": "{\"Sierra Ventures\"}",
-    "investor_uuids": "{4a97f042-2d36-c628-178a-afbb0945a362}"
+    "investor_uuids": "{4a97f042-2d36-c628-178a-afbb0945a362}",
+    "category_name": "environmental consulting",
+    "category_group_list": "professional services"
   },
   {
     "company_name": "Highfive",
@@ -825,7 +895,9 @@
     "created_at": "2013-10-24 11:27:21",
     "updated_at": "2018-02-12 23:20:42",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "video conferencing",
+    "category_group_list": "hardware|internet services|software|messaging and telecommunications|information technology"
   },
   {
     "company_name": "ZenChef",
@@ -848,7 +920,9 @@
     "created_at": "2014-09-09 10:18:29",
     "updated_at": "2018-07-05 07:48:14",
     "investor_names": "{\"Elaia Partners\"}",
-    "investor_uuids": "{0cab37ac-f2b5-4581-fa24-169ef0a8ffa8}"
+    "investor_uuids": "{0cab37ac-f2b5-4581-fa24-169ef0a8ffa8}",
+    "category_name": "restaurants",
+    "category_group_list": "food and beverage"
   },
   {
     "company_name": "Pixlee",
@@ -871,7 +945,9 @@
     "created_at": "2013-03-07 20:29:37",
     "updated_at": "2018-02-12 23:27:43",
     "investor_names": "{}",
-    "investor_uuids": "{}"
+    "investor_uuids": "{}",
+    "category_name": "brand marketing",
+    "category_group_list": "sales and marketing"
   },
   {
     "company_name": "Helium",
