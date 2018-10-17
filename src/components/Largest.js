@@ -2,8 +2,7 @@ import React from 'react';
 import Content from '../content/funding_rounds';
 
 
-class FundingRounds extends React.Component {
-
+class Largest extends React.Component {
 
     render() {
 
@@ -12,12 +11,6 @@ class FundingRounds extends React.Component {
         )
 
         const topValues = sortedByAmount.slice(-3);
-
-        const sortByDate = Content.sort((a,b) => 
-            new Date(b.announced_on) - new Date(a.announced_on)
-        )
-
-        const newest = sortByDate.slice(0, 3); 
 
         return(
             <div>
@@ -31,16 +24,9 @@ class FundingRounds extends React.Component {
                     }
                 })}
 
-                <h3>Newest</h3>
-                {newest.map(company => {
-                    return (
-                        <li>{company.company_name}: {company.announced_on}</li>
-                    );
-                })}
-
             </div>
         )
     }
 }
 
-export default FundingRounds;
+export default Largest;
