@@ -4,15 +4,8 @@ import Content from '../content/funding_rounds';
 
 class TopCategories extends React.Component {
 
-    // Count Duplicates Within an Array of Objects: https://stackoverflow.com/questions/10541068/count-duplicates-within-an-array-of-objects
-    // http://www.competa.com/blog/lets-find-duplicate-property-values-in-an-array-of-objects-in-javascript/ 
-    // Get the element with the highest occurrence in an array: https://stackoverflow.com/questions/1053843/get-the-element-with-the-highest-occurrence-in-an-array
-    
-   
-
-    
-    
-
+    // https://stackoverflow.com/questions/3579486/sort-a-javascript-array-by-frequency-and-then-filter-repeats
+     
 
     render() {
 
@@ -22,42 +15,31 @@ class TopCategories extends React.Component {
             );
         });
 
-        function frequent(categories) {
+        const firstThree = (categories) => {
             return (
-                categories[0]
+                categories.slice(0,3)
             );
         }
 
-        console.log(CategoryArray);
-        console.log(frequent(CategoryArray));
+        const array = ["apples", "oranges", "oranges", "oranges", "bananas", "bananas", "oranges"]
 
-        // 1. Put all categories into an array. 
-        // 2. Get elements with the highest occurences in the array. 
-
-
-        // const counts = {};
-        // const compare = 0;
-        // const mostFrequent;
-        // const multiplyES6 = (x, y) => { return x * y };
-    
-           
-        //    for(var i = 0, len = array.length; i < len; i++){
-        //        var word = array[i];
-               
-        //        if(counts[word] === undefined){
-        //            counts[word] = 1;
-        //        }else{
-        //            counts[word] = counts[word] + 1;
-        //        }
-        //        if(counts[word] > compare){
-        //              compare = counts[word];
-        //              mostFrequent = cats[i];
-        //        }
-        //     }
-        //   return mostFrequent;
-
+        function sortByFrequency(array) {
+            let frequency = {};
         
+            array.forEach(function(value) { frequency[value] = 0; });
+        
+            var uniques = array.filter(function(value) {
+                return ++frequency[value] == 1;
+            });
+        
+            return uniques.sort(function(a, b) {
+                return frequency[b] - frequency[a];
+            });
+        }
 
+        console.log(CategoryArray);
+        // console.log(firstThree(CategoryArray));
+        console.log(sortByFrequency(CategoryArray).slice(0,3))
 
         return(
             <div>
