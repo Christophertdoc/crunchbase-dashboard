@@ -37,7 +37,7 @@ class TopCategories extends React.Component {
             });
         }
 
-        console.log(CategoryArray);
+        // console.log(CategoryArray);
         // console.log(firstThree(CategoryArray));
         console.log(sortByFrequency(CategoryArray).slice(0,3))
 
