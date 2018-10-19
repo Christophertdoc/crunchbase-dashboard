@@ -15,14 +15,6 @@ class TopCategories extends React.Component {
             );
         });
 
-        const firstThree = (categories) => {
-            return (
-                categories.slice(0,3)
-            );
-        }
-
-        const array = ["apples", "oranges", "oranges", "oranges", "bananas", "bananas", "oranges"]
-
         function sortByFrequency(array) {
             let frequency = {};
         
@@ -32,19 +24,22 @@ class TopCategories extends React.Component {
                 return ++frequency[value] == 1;
             });
         
-            return uniques.sort(function(a, b) {
+            var sort = uniques.sort(function(a, b) {
                 return frequency[b] - frequency[a];
             });
+
+            return sort.slice(0,3);
         }
 
         // console.log(CategoryArray);
         // console.log(firstThree(CategoryArray));
-        console.log(sortByFrequency(CategoryArray).slice(0,3))
+        console.log(sortByFrequency(CategoryArray));
 
         return(
             <div>
 
                 <h3>Top Categories</h3>
+         
 
             </div>
         )
