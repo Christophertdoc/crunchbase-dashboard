@@ -18,7 +18,9 @@ class TopCategories extends React.Component {
         function sortByFrequency() {
             let frequency = {};
         
-            CategoryArray.forEach(function(value) { frequency[value] = 0; });
+            CategoryArray.forEach(function(value) { 
+                frequency[value] = 0; 
+            });
         
             var uniques = CategoryArray.filter(function(value) {
                 return ++frequency[value] == 1;
@@ -28,7 +30,10 @@ class TopCategories extends React.Component {
                 return frequency[b] - frequency[a];
             });
 
-            return sort.slice(0,3);
+            var slice = sort.slice(0,3);
+
+            return slice; 
+
         }
 
         console.log(sortByFrequency());
