@@ -15,12 +15,12 @@ class TopCategories extends React.Component {
             );
         });
 
-        function sortByFrequency(array) {
+        function sortByFrequency() {
             let frequency = {};
         
-            array.forEach(function(value) { frequency[value] = 0; });
+            CategoryArray.forEach(function(value) { frequency[value] = 0; });
         
-            var uniques = array.filter(function(value) {
+            var uniques = CategoryArray.filter(function(value) {
                 return ++frequency[value] == 1;
             });
         
@@ -31,15 +31,13 @@ class TopCategories extends React.Component {
             return sort.slice(0,3);
         }
 
-        // console.log(CategoryArray);
-        // console.log(firstThree(CategoryArray));
-        console.log(sortByFrequency(CategoryArray));
+        console.log(sortByFrequency());
 
         return(
             <div>
 
                 <h3>Top Categories</h3>
-         
+                {sortByFrequency()}
 
             </div>
         )
