@@ -36,6 +36,8 @@ class TopCategories extends React.Component {
 
         }
 
+        // hint: The sort function returns an array. 
+
         console.log(sortByFrequency());
 
         return(
