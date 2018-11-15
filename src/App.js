@@ -8,20 +8,15 @@ class App extends Component {
     render() {
         return (
             <div>
-                <div className="App">
-                    <Largest />
-                    <Newest />
-                    <TopCategories />
-                </div>
                 <Tabs>
-                    <div label="Gator">
-                        See ya later, <em>Alligator</em>!
+                    <div label="Largest">
+                        <Largest />
                     </div>
-                    <div label="Croc">
-                        After 'while, <em>Crocodile</em>!
+                    <div label="Newest">
+                        <Newest />
                     </div>
-                    <div label="Sarcosuchus">
-                        Nothing to see here, this tab is <em>extinct</em>!
+                    <div label="Top Categories">
+                        <TopCategories />
                     </div>
                 </Tabs>
             </div>
